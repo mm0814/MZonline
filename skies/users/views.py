@@ -22,48 +22,48 @@ from utils.email_send import send_register_email
 
 
 # Create your views here.
-def index(request):
-    return render(request, "users/index.html", locals())
+# def index(request):
+#     return render(request, "users/index.html", locals())
 
 
-def login1(request):
-    return render(request, "users/login.html", locals())
+# def login1(request):
+#     return render(request, "users/login.html", locals())
 
 
-def user_login(request):
-    if request.method == "POST":
-        login_form = LoginForm(request.POST)
-        if login_form.is_valid():
-            user_name = request.POST.get("username", "")
-            print type(user_name)
-            print user_name
-            pass_word = request.POST.get("password", "")
-            print type(pass_word)
-            print pass_word
-            user = authenticate(username=user_name, password=pass_word)
-            # print type(user)
-            # print user
-            if user is not None:
-                if user.is_active:
-                    login(request, user)
-                    return render(request, "users/index.html", {})
-                else:
-                    return render(request, "users/login.html", {"msg": "用户未激活！"})
-            else:
-                if user != user_name :
-                    msg = "用户名或密码错误"
-                else:
-                    msg = "登陆失败，请重试！"
-                return render(request, "users/login.html", {"msg":msg})
-        else:
+# def user_login(request):
+#     if request.method == "POST":
+#         login_form = LoginForm(request.POST)
+#         if login_form.is_valid():
+#             user_name = request.POST.get("username", "")
+#             print type(user_name)
+#             print user_name
+#             pass_word = request.POST.get("password", "")
+#             print type(pass_word)
+#             print pass_word
+#             user = authenticate(username=user_name, password=pass_word)
+#             # print type(user)
+#             # print user
+#             if user is not None:
+#                 if user.is_active:
+#                     login(request, user)
+#                     return render(request, "users/index.html", {})
+#                 else:
+#                     return render(request, "users/login.html", {"msg": "用户未激活！"})
+#             else:
+#                 if user != user_name :
+#                     msg = "用户名或密码错误"
+#                 else:
+#                     msg = "登陆失败，请重试！"
+#                 return render(request, "users/login.html", {"msg":msg})
+#         else:
+#
+#             return render(request, "users/login.html", {"login_form":login_form})
+#     elif request.method == "GET":
+#         return render(request, "users/login.html", locals())
 
-            return render(request, "users/login.html", {"login_form":login_form})
-    elif request.method == "GET":
-        return render(request, "users/login.html", locals())
 
-
-def register1(request):
-    return render(request, "users/register.html", locals())
+# def register1(request):
+#     return render(request, "users/register.html", locals())
 
 
 class CustomBackend(ModelBackend):
