@@ -127,7 +127,7 @@ class EmailVerifyRecord(models.Model):
     邮箱验证记录
     """
 
-    code = models.CharField(u'验证码', max_length=10)
+    code = models.CharField(u'验证码', max_length=40)
     email = models.CharField(u'邮箱', max_length=50)
     type = models.SmallIntegerField(u'验证码类型', default=0,
                                     choices=((0, u'注册'), (1, u'忘记密码'),))
@@ -352,7 +352,7 @@ class UserProfileManager(BaseUserManager):
                                  **extra_fields)
 
 
-class UserProfile(AbstractBaseUser, PermissionsMixin):
+class UserProfile(AbstractBaseUser,PermissionsMixin):
     """
     继承AbstractUser，扩展用户信息
     """
@@ -385,7 +385,6 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
     myfavorite = models.ManyToManyField(Course, through=u'MyFavorite', verbose_name=u'我的收藏')
 
     objects = UserProfileManager()
-
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []
 
