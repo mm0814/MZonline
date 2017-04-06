@@ -38,6 +38,11 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# 自定义认证
+AUTHENTICATION_BACKENDS = (
+    'users.views.CustomBackend',
+)
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -48,6 +53,9 @@ INSTALLED_APPS = [
     'common',
     'course',
     'users',
+    'captcha',
+
+
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -66,7 +74,7 @@ ROOT_URLCONF = 'mzonline.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -146,9 +154,9 @@ STATICFILES_DIRS = (
 )
 
 # 模板目录
-TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR,  'templates'),
-)
+# TEMPLATE_DIRS = (
+#     os.path.join(BASE_DIR,  'templates'),
+# )
 
 # 在django系统用户表的基础之上扩展用户模型
 AUTH_USER_MODEL = "common.UserProfile"
