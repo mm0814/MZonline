@@ -1,0 +1,4 @@
+2017-04-07 03:57:47,075 [Thread-38:8760] [django.request:182] [base:get_response] [WARNING]- Not Found: /test/yzm.jpg
+2017-04-07 03:57:47,076 [Thread-39:9296] [django.request:182] [base:get_response] [WARNING]- Not Found: /test/15.jpg
+2017-04-07 04:27:20,984 [Thread-35:9928] [django.request:182] [base:get_response] [WARNING]- Not Found: /test/yzm.jpg
+2017-04-07 04:27:20,996 [Thread-36:9032] [django.request:182] [base:get_response] [WARNING]- Not Found: /test/15.jpg

@@ -14,7 +14,7 @@ from users.views import LoginView,RegisterView,ActiveUserView,ForgetPwdView,Rese
 
 urlpatterns = [
 
-    url(r'^index/$',views.index),
+    # url(r'^index/$',views.index),
     url(r'^login/$', LoginView.as_view(), name="login"),
     url(r'^register/$', RegisterView.as_view(), name="register"),
     url(r'^captcha/', include('captcha.urls')),

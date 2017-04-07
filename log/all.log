@@ -1,0 +1,264 @@
+2017-04-07 03:53:07,101 [Dummy-1:3400] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:53:08,612 [Dummy-1:9728] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:53:12,053 [Dummy-1:9924] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:53:32,631 [Dummy-1:9580] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:54:46,930 [Dummy-1:9760] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:54:46,997 [Dummy-1:7456] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:57:08,611 [Dummy-1:6580] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:57:08,614 [Dummy-1:6960] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:57:08,894 [Dummy-1:6960] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:57:08,897 [Dummy-1:6580] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:57:08,900 [Dummy-1:6960] [django.db.backends:89] [utils:execute] [DEBUG]- (0.004) SHOW FULL TABLES; args=None
+2017-04-07 03:57:08,901 [Dummy-1:6580] [django.db.backends:89] [utils:execute] [DEBUG]- (0.004) SHOW FULL TABLES; args=None
+2017-04-07 03:57:08,905 [Dummy-1:6960] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2017-04-07 03:57:08,907 [Dummy-1:6580] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2017-04-07 03:57:10,368 [Dummy-1:7420] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:57:10,642 [Dummy-1:7420] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:57:10,648 [Dummy-1:7420] [django.db.backends:89] [utils:execute] [DEBUG]- (0.004) SHOW FULL TABLES; args=None
+2017-04-07 03:57:10,654 [Dummy-1:7420] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2017-04-07 03:57:25,357 [Dummy-1:10220] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:57:25,565 [Dummy-1:10220] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 03:57:25,571 [Dummy-1:10220] [django.db.backends:89] [utils:execute] [DEBUG]- (0.004) SHOW FULL TABLES; args=None
+2017-04-07 03:57:25,578 [Dummy-1:10220] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2017-04-07 03:57:39,286 [Thread-2:6544] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000003DD8A58>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000003DBD828>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000003DF39B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000003DC95C0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x0000000003DC9780>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 03:57:39,286 [Thread-2:6544] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000003DD8A58>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000003DBD828>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000003DF39B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000003DC95C0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x0000000003DC9780>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 03:57:39,286 [Thread-2:6544] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000003DD8A58>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000003DBD828>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000003DF39B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000003DC95C0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x0000000003DC9780>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 03:57:39,288 [Thread-2:6544] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000003DD8A58>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000003DBD828>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000003DF39B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000003DC95C0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x0000000003DC9780>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 03:57:39,290 [Thread-2:6544] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000003DD8A58>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000003DBD828>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000003DF39B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000003DC95C0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x0000000003DC9780>, 'request': <WSGIRequest: GET '/users/login/'>}, {}]"
+2017-04-07 03:57:39,292 [Thread-2:6544] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'msg' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [msg] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000003DD8A58>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000003DBD828>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000003DF39B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000003DC95C0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x0000000003DC9780>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 03:57:47,088 [Thread-38:8760] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-04-07 03:57:47,089 [Thread-39:9296] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-04-07 03:57:47,092 [Thread-38:8760] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'course.urls' from 'F:\\Workplace\\mzonline\\skies\\course\\urls.pyc'> (None:None) ^course/>"
+2017-04-07 03:57:47,094 [Thread-38:8760] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'users.urls' from 'F:\\Workplace\\mzonline\\skies\\users\\urls.pyc'> (None:None) ^users/>"
+2017-04-07 03:57:47,094 [Thread-39:9296] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'course.urls' from 'F:\\Workplace\\mzonline\\skies\\course\\urls.pyc'> (None:None) ^course/>"
+2017-04-07 03:57:47,095 [Thread-39:9296] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'users.urls' from 'F:\\Workplace\\mzonline\\skies\\users\\urls.pyc'> (None:None) ^users/>"
+2017-04-07 04:27:00,960 [Dummy-1:9288] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 04:27:01,184 [Dummy-1:9288] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 04:27:01,190 [Dummy-1:9288] [django.db.backends:89] [utils:execute] [DEBUG]- (0.006) SHOW FULL TABLES; args=None
+2017-04-07 04:27:01,198 [Dummy-1:9288] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2017-04-07 04:27:06,894 [Thread-2:10428] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x00000000040ABA58>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004090828>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000040C69B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000000000409E5C0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x000000000409E780>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:06,897 [Thread-2:10428] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x00000000040ABA58>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004090828>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000040C69B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000000000409E5C0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x000000000409E780>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:06,897 [Thread-2:10428] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x00000000040ABA58>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004090828>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000040C69B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000000000409E5C0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x000000000409E780>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:06,898 [Thread-2:10428] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x00000000040ABA58>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004090828>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000040C69B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000000000409E5C0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x000000000409E780>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:06,900 [Thread-2:10428] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x00000000040ABA58>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004090828>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000040C69B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000000000409E5C0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x000000000409E780>, 'request': <WSGIRequest: GET '/users/login/'>}, {}]"
+2017-04-07 04:27:06,900 [Thread-2:10428] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'msg' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [msg] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x00000000040ABA58>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004090828>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000040C69B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000000000409E5C0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x000000000409E780>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:20,563 [Thread-8:3400] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 04:27:20,566 [Thread-8:3400] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 04:27:20,568 [Thread-8:3400] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `user_profile`.`id`, `user_profile`.`password`, `user_profile`.`last_login`, `user_profile`.`is_superuser`, `user_profile`.`username`, `user_profile`.`first_name`, `user_profile`.`last_name`, `user_profile`.`email`, `user_profile`.`is_staff`, `user_profile`.`is_active`, `user_profile`.`date_joined`, `user_profile`.`avatar_url`, `user_profile`.`avatar_middle_thumbnall`, `user_profile`.`avatar_small_thumbnall`, `user_profile`.`avatar_alt`, `user_profile`.`qq`, `user_profile`.`mobile`, `user_profile`.`valid_email`, `user_profile`.`company_name`, `user_profile`.`position`, `user_profile`.`description`, `user_profile`.`city`, `user_profile`.`province`, `user_profile`.`index` FROM `user_profile` WHERE (`user_profile`.`username` = 'admin' OR `user_profile`.`email` = 'admin'); args=(u'admin', u'admin')
+2017-04-07 04:27:20,595 [Thread-8:3400] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'f63gtv1sidse4m7uapx2z9rk81dbbk4j' LIMIT 1; args=(u'f63gtv1sidse4m7uapx2z9rk81dbbk4j',)
+2017-04-07 04:27:20,596 [Thread-8:3400] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('f63gtv1sidse4m7uapx2z9rk81dbbk4j', 'NDUyNTk5Mjg0NTAwZTE1MmE2Y2RiZWZiZTY5NDU3OWRiZmYzMTNkMTp7fQ==', '2017-04-21 04:27:20.596000'); args=(u'f63gtv1sidse4m7uapx2z9rk81dbbk4j', u'NDUyNTk5Mjg0NTAwZTE1MmE2Y2RiZWZiZTY5NDU3OWRiZmYzMTNkMTp7fQ==', u'2017-04-21 04:27:20.596000')
+2017-04-07 04:27:20,605 [Thread-8:3400] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'f63gtv1sidse4m7uapx2z9rk81dbbk4j'; args=(u'f63gtv1sidse4m7uapx2z9rk81dbbk4j',)
+2017-04-07 04:27:20,607 [Thread-8:3400] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('f63gtv1sidse4m7uapx2z9rk81dbbk4j'); args=(u'f63gtv1sidse4m7uapx2z9rk81dbbk4j',)
+2017-04-07 04:27:20,608 [Thread-8:3400] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) UPDATE `user_profile` SET `last_login` = '2017-04-07 04:27:20.608000' WHERE `user_profile`.`id` = 1; args=(u'2017-04-07 04:27:20.608000', 1)
+2017-04-07 04:27:20,611 [Thread-8:3400] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) UPDATE `django_session` SET `session_data` = 'NTlmM2Y4ZDg3YjAyYjNjOWJiZDY0YTFhY2M5YjU0ZjExNTIxNjJmOTp7Il9hdXRoX3VzZXJfaGFzaCI6IjcxMzgwOWJlM2MyNDcyNmVjMzI2Nzg3ZmU1YjYyZjEzMTZmNDFkZDIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJ1c2Vycy52aWV3cy5DdXN0b21CYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEifQ==', `expire_date` = '2017-04-21 04:27:20.610000' WHERE `django_session`.`session_key` = 'f63gtv1sidse4m7uapx2z9rk81dbbk4j'; args=(u'NTlmM2Y4ZDg3YjAyYjNjOWJiZDY0YTFhY2M5YjU0ZjExNTIxNjJmOTp7Il9hdXRoX3VzZXJfaGFzaCI6IjcxMzgwOWJlM2MyNDcyNmVjMzI2Nzg3ZmU1YjYyZjEzMTZmNDFkZDIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJ1c2Vycy52aWV3cy5DdXN0b21CYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEifQ==', u'2017-04-21 04:27:20.610000', u'f63gtv1sidse4m7uapx2z9rk81dbbk4j')
+2017-04-07 04:27:20,611 [Thread-8:3400] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('f63gtv1sidse4m7uapx2z9rk81dbbk4j', 'NTlmM2Y4ZDg3YjAyYjNjOWJiZDY0YTFhY2M5YjU0ZjExNTIxNjJmOTp7Il9hdXRoX3VzZXJfaGFzaCI6IjcxMzgwOWJlM2MyNDcyNmVjMzI2Nzg3ZmU1YjYyZjEzMTZmNDFkZDIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJ1c2Vycy52aWV3cy5DdXN0b21CYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEifQ==', '2017-04-21 04:27:20.610000'); args=(u'f63gtv1sidse4m7uapx2z9rk81dbbk4j', u'NTlmM2Y4ZDg3YjAyYjNjOWJiZDY0YTFhY2M5YjU0ZjExNTIxNjJmOTp7Il9hdXRoX3VzZXJfaGFzaCI6IjcxMzgwOWJlM2MyNDcyNmVjMzI2Nzg3ZmU1YjYyZjEzMTZmNDFkZDIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJ1c2Vycy52aWV3cy5DdXN0b21CYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEifQ==', u'2017-04-21 04:27:20.610000')
+2017-04-07 04:27:20,989 [Thread-35:9928] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-04-07 04:27:20,990 [Thread-35:9928] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'course.urls' from 'F:\\Workplace\\mzonline\\skies\\course\\urls.pyc'> (None:None) ^course/>"
+2017-04-07 04:27:20,990 [Thread-35:9928] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'users.urls' from 'F:\\Workplace\\mzonline\\skies\\users\\urls.pyc'> (None:None) ^users/>"
+2017-04-07 04:27:21,000 [Thread-36:9032] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-04-07 04:27:21,002 [Thread-36:9032] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'course.urls' from 'F:\\Workplace\\mzonline\\skies\\course\\urls.pyc'> (None:None) ^course/>"
+2017-04-07 04:27:21,002 [Thread-36:9032] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'users.urls' from 'F:\\Workplace\\mzonline\\skies\\users\\urls.pyc'> (None:None) ^users/>"
+2017-04-07 04:27:24,532 [Thread-43:7516] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100908>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100C18>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000040B8710>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8CC0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x00000000040E89E8>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:24,533 [Thread-43:7516] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100908>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100C18>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000040B8710>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8CC0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x00000000040E89E8>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:24,535 [Thread-43:7516] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100908>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100C18>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000040B8710>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8CC0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x00000000040E89E8>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:24,535 [Thread-43:7516] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100908>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100C18>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000040B8710>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8CC0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x00000000040E89E8>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:24,536 [Thread-43:7516] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100908>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100C18>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000040B8710>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8CC0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x00000000040E89E8>, 'request': <WSGIRequest: GET '/users/login/'>}, {}]"
+2017-04-07 04:27:24,538 [Thread-43:7516] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'msg' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [msg] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100908>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100C18>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000040B8710>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8CC0>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x00000000040E89E8>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:28,845 [Thread-48:1864] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'msg' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [msg] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100AC8>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100F28>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000041D8DD8>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8B70>, u'request': <WSGIRequest: POST '/users/login/'>}, {}, {'login_form': <LoginForm bound=True, valid=False, fields=(username;password)>}]"
+2017-04-07 04:27:38,996 [Thread-53:11104] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'username' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [username] in u'<ul class="errorlist"><li>password<ul class="errorlist"><li>\u5bc6\u7801\u4e0d\u80fd\u4e3a\u7a7a</li></ul></li></ul>'
+2017-04-07 04:27:38,997 [Thread-53:11104] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'msg' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [msg] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x00000000041003C8>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100C18>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000041E0DD8>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040B8C50>, u'request': <WSGIRequest: POST '/users/login/'>}, {}, {'login_form': <LoginForm bound=True, valid=False, fields=(username;password)>}]"
+2017-04-07 04:27:42,766 [Thread-58:8988] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 04:27:42,769 [Thread-58:8988] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2017-04-07 04:27:42,769 [Thread-58:8988] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `user_profile`.`id`, `user_profile`.`password`, `user_profile`.`last_login`, `user_profile`.`is_superuser`, `user_profile`.`username`, `user_profile`.`first_name`, `user_profile`.`last_name`, `user_profile`.`email`, `user_profile`.`is_staff`, `user_profile`.`is_active`, `user_profile`.`date_joined`, `user_profile`.`avatar_url`, `user_profile`.`avatar_middle_thumbnall`, `user_profile`.`avatar_small_thumbnall`, `user_profile`.`avatar_alt`, `user_profile`.`qq`, `user_profile`.`mobile`, `user_profile`.`valid_email`, `user_profile`.`company_name`, `user_profile`.`position`, `user_profile`.`description`, `user_profile`.`city`, `user_profile`.`province`, `user_profile`.`index` FROM `user_profile` WHERE (`user_profile`.`username` = 'admin' OR `user_profile`.`email` = 'admin'); args=(u'admin', u'admin')
+2017-04-07 04:27:42,803 [Thread-58:8988] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100F28>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100EB8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000041F3048>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000042036D8>, u'request': <WSGIRequest: POST '/users/login/'>}, {}, {'msg': '\\xe8\\xb4\\xa6\\xe5\\x8f\\xb7\\xe6\\x88\\x96\\xe5\\xaf\\x86\\xe7\\xa0\\x81\\xe9\\x94\\x99\\xe8\\xaf\\xaf\\xef\\xbc\\x8c\\xe8\\xaf\\xb7\\xe9\\x87\\x8d\\xe6\\x96\\xb0\\xe8\\xbe\\x93\\xe5\\x85\\xa5'}]"
+2017-04-07 04:27:42,805 [Thread-58:8988] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100F28>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100EB8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000041F3048>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000042036D8>, u'request': <WSGIRequest: POST '/users/login/'>}, {}, {'msg': '\\xe8\\xb4\\xa6\\xe5\\x8f\\xb7\\xe6\\x88\\x96\\xe5\\xaf\\x86\\xe7\\xa0\\x81\\xe9\\x94\\x99\\xe8\\xaf\\xaf\\xef\\xbc\\x8c\\xe8\\xaf\\xb7\\xe9\\x87\\x8d\\xe6\\x96\\xb0\\xe8\\xbe\\x93\\xe5\\x85\\xa5'}]"
+2017-04-07 04:27:42,805 [Thread-58:8988] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100F28>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100EB8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000041F3048>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000042036D8>, u'request': <WSGIRequest: POST '/users/login/'>}, {}, {'msg': '\\xe8\\xb4\\xa6\\xe5\\x8f\\xb7\\xe6\\x88\\x96\\xe5\\xaf\\x86\\xe7\\xa0\\x81\\xe9\\x94\\x99\\xe8\\xaf\\xaf\\xef\\xbc\\x8c\\xe8\\xaf\\xb7\\xe9\\x87\\x8d\\xe6\\x96\\xb0\\xe8\\xbe\\x93\\xe5\\x85\\xa5'}]"
+2017-04-07 04:27:42,805 [Thread-58:8988] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100F28>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100EB8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000041F3048>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000042036D8>, u'request': <WSGIRequest: POST '/users/login/'>}, {}, {'msg': '\\xe8\\xb4\\xa6\\xe5\\x8f\\xb7\\xe6\\x88\\x96\\xe5\\xaf\\x86\\xe7\\xa0\\x81\\xe9\\x94\\x99\\xe8\\xaf\\xaf\\xef\\xbc\\x8c\\xe8\\xaf\\xb7\\xe9\\x87\\x8d\\xe6\\x96\\xb0\\xe8\\xbe\\x93\\xe5\\x85\\xa5'}]"
+2017-04-07 04:27:42,809 [Thread-58:8988] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100F28>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100EB8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000041F3048>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000042036D8>, u'request': <WSGIRequest: POST '/users/login/'>}, {}, {'msg': '\\xe8\\xb4\\xa6\\xe5\\x8f\\xb7\\xe6\\x88\\x96\\xe5\\xaf\\x86\\xe7\\xa0\\x81\\xe9\\x94\\x99\\xe8\\xaf\\xaf\\xef\\xbc\\x8c\\xe8\\xaf\\xb7\\xe9\\x87\\x8d\\xe6\\x96\\xb0\\xe8\\xbe\\x93\\xe5\\x85\\xa5'}, {}]"
+2017-04-07 04:27:46,164 [Thread-63:9440] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'msg' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [msg] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004100BA8>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0000000004100CF8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x00000000042033C8>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000004102208>, u'request': <WSGIRequest: POST '/users/login/'>}, {}, {'login_form': <LoginForm bound=True, valid=False, fields=(username;password)>}]"
+2017-04-07 04:27:49,627 [Thread-68:10112] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004011198>>, 'user': <SimpleLazyObject: <function <lambda> at 0x00000000040EDDD8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004203D30>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8B00>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x00000000040E8D68>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:49,628 [Thread-68:10112] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004011198>>, 'user': <SimpleLazyObject: <function <lambda> at 0x00000000040EDDD8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004203D30>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8B00>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x00000000040E8D68>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:49,628 [Thread-68:10112] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004011198>>, 'user': <SimpleLazyObject: <function <lambda> at 0x00000000040EDDD8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004203D30>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8B00>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x00000000040E8D68>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:49,628 [Thread-68:10112] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004011198>>, 'user': <SimpleLazyObject: <function <lambda> at 0x00000000040EDDD8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004203D30>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8B00>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x00000000040E8D68>, 'request': <WSGIRequest: GET '/users/login/'>}]"
+2017-04-07 04:27:49,631 [Thread-68:10112] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'login_form' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [login_form] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004011198>>, 'user': <SimpleLazyObject: <function <lambda> at 0x00000000040EDDD8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004203D30>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8B00>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x00000000040E8D68>, 'request': <WSGIRequest: GET '/users/login/'>}, {}]"
+2017-04-07 04:27:49,632 [Thread-68:10112] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'msg' in template 'users/login.html'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\mzonline\lib\site-packages\django\template\base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [msg] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0000000004011198>>, 'user': <SimpleLazyObject: <function <lambda> at 0x00000000040EDDD8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004203D30>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000040E8B00>, u'request': <WSGIRequest: GET '/users/login/'>}, {}, {'self': <users.views.LoginView object at 0x00000000040E8D68>, 'request': <WSGIRequest: GET '/users/login/'>}]"

@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# _*_ coding:utf-8 _*_
+
+
 """mzonline URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
